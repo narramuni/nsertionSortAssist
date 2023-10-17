@@ -2,10 +2,15 @@
 
 using System;
 
-class Program
+public class Program
 {
-    static void Main()
-    {
+     static void Main()
+ {
+     runApp();
+ }
+ static void runApp()
+ {
+     
         string[] students = new string[5];
         students[0] = "praveen";
         students[1] = "kumar";
